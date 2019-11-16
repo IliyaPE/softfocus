@@ -9,7 +9,7 @@ gem 'mongoid'
 gem 'jquery-rails'
 gem 'haml'
 gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
-gem 'paperclip', "~> 4.3"
+gem 'paperclip', "~> 5.2"
 gem 'kaminari-mongoid'
 gem 'kaminari-actionview'
 gem 'exception_notification'
