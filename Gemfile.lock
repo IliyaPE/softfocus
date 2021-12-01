@@ -115,7 +115,7 @@ GEM
     kaminari-mongoid (1.0.1)
       kaminari-core (~> 1.0)
       mongoid
-    libv8 (8.4.255.0)
+    libv8-node (16.10.0.0)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -135,8 +135,8 @@ GEM
       rake
     mini_mime (1.1.2)
     mini_portile2 (2.6.1)
-    mini_racer (0.3.1)
-      libv8 (~> 8.4.255)
+    mini_racer (0.5.0)
+      libv8-node (~> 16.10.0.0)
     minitest (5.14.4)
     mongo (2.15.1)
       bson (>= 4.8.2, < 5.0.0)
@@ -258,7 +258,7 @@ DEPENDENCIES
   kaminari-actionview
   kaminari-mongoid
   listen
-  mini_racer (~> 0.3.1)
+  mini_racer (~> 0.5.0)
   mongoid
   mongoid-paperclip
   paperclip
