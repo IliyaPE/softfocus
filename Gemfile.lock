@@ -223,7 +223,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    spring (3.1.1)
+    spring (4.0.0)
     spring-commands-rspec (1.0.4)
       spring (>= 0.9.1)
     sprockets (4.0.2)
@@ -259,7 +259,6 @@ DEPENDENCIES
   json
   kaminari-actionview
   kaminari-mongoid
-  kt-paperclip
   listen
   mini_racer (~> 0.3.1)
   mongoid
